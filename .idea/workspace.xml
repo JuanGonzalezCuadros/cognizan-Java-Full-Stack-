@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1176b9d3-6adf-4791-b14e-35c7538b2f8e" name="Changes" comment="Unit 1 code" />
+    <list default="true" id="1176b9d3-6adf-4791-b14e-35c7538b2f8e" name="Changes" comment="Unit 1 code">
+      <change afterPath="$PROJECT_DIR$/src/GuessTheNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LoopsInJava.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,8 +17,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;JuanGonzalezCuadros&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/JuanGonzalezCuadros/cognizan-Java-Full-Stack-.git&quot;,
+    &quot;accountId&quot;: &quot;0f225cf1-c080-405f-bb2e-815029e09da3&quot;
+  }
+}</component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -28,6 +44,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.DragonCave.executor": "Run",
+    "Application.GuessTheNumber.executor": "Run",
+    "Application.LoopsInJava.executor": "Run",
     "Application.exploringJavaConcepts.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -35,9 +53,23 @@
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.DragonCave">
+  <component name="RunManager" selected="Application.GuessTheNumber">
     <configuration name="DragonCave" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DragonCave" />
+      <module name="cognizan" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GuessTheNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GuessTheNumber" />
+      <module name="cognizan" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoopsInJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LoopsInJava" />
       <module name="cognizan" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -52,6 +84,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GuessTheNumber" />
+        <item itemvalue="Application.LoopsInJava" />
         <item itemvalue="Application.DragonCave" />
         <item itemvalue="Application.exploringJavaConcepts" />
       </list>
@@ -74,7 +108,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745382413073</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Unit 1 code">
+      <option name="closed" value="true" />
+      <created>1745382677526</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1745382677526</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
