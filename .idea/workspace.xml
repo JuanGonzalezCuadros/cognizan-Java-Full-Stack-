@@ -4,11 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1176b9d3-6adf-4791-b14e-35c7538b2f8e" name="Changes" comment="Unit 1: arrays code" />
+    <list default="true" id="1176b9d3-6adf-4791-b14e-35c7538b2f8e" name="Changes" comment="LibraryManagement inclompleted">
+      <change afterPath="$PROJECT_DIR$/src/libraryManagement/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/libraryManagement/EBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/libraryManagement/Library.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/libraryManagement/LibraryManagementSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/libraryManagement/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/libraryManagement/PremiumMember.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,20 +52,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.DragonCave.executor": "Run",
-    "Application.GuessTheNumber.executor": "Run",
-    "Application.ImplementingArrays.executor": "Run",
-    "Application.LoopsInJava.executor": "Run",
-    "Application.StudentGrades.executor": "Run",
-    "Application.exploringJavaConcepts.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.DragonCave.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GuessTheNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ImplementingArrays.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LoopsInJava.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StudentGrades.executor&quot;: &quot;Run&quot;,
+    &quot;Application.exploringJavaConcepts.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.StudentGrades">
     <configuration name="DragonCave" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DragonCave" />
@@ -138,7 +153,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745553537811</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Array Changes">
+      <option name="closed" value="true" />
+      <created>1745553801732</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1745553801732</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -156,6 +179,8 @@
     <MESSAGE value="Unit 1 code" />
     <MESSAGE value="Unit 1: arrays code" />
     <MESSAGE value="Unit 1: arrays code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Unit 1: arrays code" />
+    <MESSAGE value="Array Changes" />
+    <MESSAGE value="LibraryManagement inclompleted" />
+    <option name="LAST_COMMIT_MESSAGE" value="LibraryManagement inclompleted" />
   </component>
 </project>
