@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1176b9d3-6adf-4791-b14e-35c7538b2f8e" name="Changes" comment="LibraryManagement Completed">
-      <change beforePath="$PROJECT_DIR$/src/libraryManagement/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/libraryManagement/Library.java" afterDir="false" />
+    <list default="true" id="1176b9d3-6adf-4791-b14e-35c7538b2f8e" name="Changes" comment="LibraryManagement Detail">
+      <change afterPath="$PROJECT_DIR$/src/LibraryCatalog/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LibraryCatalog/LibraryCatalog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LibraryCatalog/LibraryCatalogSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +56,7 @@
     "Application.DragonCave.executor": "Run",
     "Application.GuessTheNumber.executor": "Run",
     "Application.ImplementingArrays.executor": "Run",
+    "Application.LibraryCatalogSystem.executor": "Run",
     "Application.LibraryManagementSystem.executor": "Run",
     "Application.LoopsInJava.executor": "Run",
     "Application.StudentGrades.executor": "Run",
@@ -63,7 +67,7 @@
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.LibraryManagementSystem">
+  <component name="RunManager" selected="Application.LibraryCatalogSystem">
     <configuration name="BankingApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bankingApplication.BankingApp" />
       <module name="cognizan" />
@@ -90,9 +94,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImplementingArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ImplementingArrays" />
+    <configuration name="LibraryCatalogSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LibraryCatalog.LibraryCatalogSystem" />
       <module name="cognizan" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LibraryCatalog.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -119,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LibraryCatalogSystem" />
         <item itemvalue="Application.LibraryManagementSystem" />
         <item itemvalue="Application.BankingApp" />
         <item itemvalue="Application.ContactManager" />
         <item itemvalue="Application.StudentGrades" />
-        <item itemvalue="Application.ImplementingArrays" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +218,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745991611907</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="LibraryManagement Detail">
+      <option name="closed" value="true" />
+      <created>1745992200185</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1745992200185</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -230,6 +248,7 @@
     <MESSAGE value="LibraryManagement inclompleted" />
     <MESSAGE value="Contact Management File" />
     <MESSAGE value="LibraryManagement Completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="LibraryManagement Completed" />
+    <MESSAGE value="LibraryManagement Detail" />
+    <option name="LAST_COMMIT_MESSAGE" value="LibraryManagement Detail" />
   </component>
 </project>
