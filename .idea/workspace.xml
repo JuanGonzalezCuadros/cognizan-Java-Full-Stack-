@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1176b9d3-6adf-4791-b14e-35c7538b2f8e" name="Changes" comment="LibraryManagement inclompleted">
-      <change afterPath="$PROJECT_DIR$/src/ContactManagement/Contact.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ContactManagement/ContactDirectory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ContactManagement/ContactManager.java" afterDir="false" />
+    <list default="true" id="1176b9d3-6adf-4791-b14e-35c7538b2f8e" name="Changes" comment="Contact Management File">
+      <change afterPath="$PROJECT_DIR$/src/bankingApplication/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bankingApplication/BankingApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +50,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BankingApp.executor": "Run",
     "Application.ContactManager.executor": "Run",
     "Application.DragonCave.executor": "Run",
     "Application.GuessTheNumber.executor": "Run",
@@ -64,7 +64,20 @@
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ContactManager">
+  <component name="RunManager" selected="Application.BankingApp">
+    <configuration name="BankingApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bankingApplication.BankingApp" />
+      <module name="cognizan" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bankingApplication.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ContactManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ContactManagement.ContactManager" />
       <module name="cognizan" />
@@ -92,13 +105,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoopsInJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LoopsInJava" />
-      <module name="cognizan" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="StudentGrades" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="StudentGrades" />
       <module name="cognizan" />
@@ -108,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BankingApp" />
         <item itemvalue="Application.ContactManager" />
         <item itemvalue="Application.StudentGrades" />
         <item itemvalue="Application.ImplementingArrays" />
         <item itemvalue="Application.GuessTheNumber" />
-        <item itemvalue="Application.LoopsInJava" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +179,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745902861127</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Contact Management File">
+      <option name="closed" value="true" />
+      <created>1745907297038</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1745907297038</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -193,6 +207,7 @@
     <MESSAGE value="Unit 1: arrays code" />
     <MESSAGE value="Array Changes" />
     <MESSAGE value="LibraryManagement inclompleted" />
-    <option name="LAST_COMMIT_MESSAGE" value="LibraryManagement inclompleted" />
+    <MESSAGE value="Contact Management File" />
+    <option name="LAST_COMMIT_MESSAGE" value="Contact Management File" />
   </component>
 </project>
