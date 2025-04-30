@@ -16,15 +16,27 @@ public class Library {
         this.books.add(book);
     }
 
-    public List<Book> getAllBooks() {
-        return new ArrayList<>(this.books); // Return a copy to prevent external modification
+    public boolean borrowBook(Member member, Book book) {
+        return member.borrowBook(book);
+    }
+
+    public void getAllBooks() {
+        System.out.println("Available Books:");
+        for (Book book : books) {
+            if (book.isAvailable()) {
+                book.displayBookDetails();
+            }
+        }
     }
 
     public void addMember(Member member) {
         this.members.add(member);
     }
 
-    public List<Member> getAllMembers() {
-        return new ArrayList<>(this.members); // Return a copy to prevent external modification
+    public void getAllMembers() {
+        System.out.println("Registered Members:");
+        for (Member member : members) {
+            member.displayMemberDetails();
+        }
     }
 }

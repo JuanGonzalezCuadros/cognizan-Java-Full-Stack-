@@ -6,11 +6,11 @@ public class Book{
     private String isbn;
     private boolean availability;
 
-    public Book(String title, String author, String isbn, boolean availability){
+    public Book(String title, String author, String isbn){
         this.title = title;
         this.author = author;
         this.isbn = isbn;
-        this.availability = availability;
+        this.availability = true;
     }
 
     public String getTitle() {
@@ -34,14 +34,10 @@ public class Book{
     }
 
     public void setISBN(String isbn) {
-        if(isbn.length() == 14) {
-            this.isbn = isbn;
-        } else {
-            System.out.println("Inadequate ISBN");
-        }
+        this.isbn = isbn;
     }
 
-    public boolean isAvailability() {
+    public boolean isAvailable() {
         return availability;
     }
 
@@ -49,12 +45,19 @@ public class Book{
         this.availability = availability;
     }
 
-    @Override
-    public String toString() {
-        return "Book{" +
-                "title='" + title + '\'' +
-                ", author='" + author + '\'' +
-                ", isbn='" + isbn + '\'' +
-                '}';
+    public void displayBookDetails() {
+        System.out.println("Title: " + title + ", Author: " + author + ", ISBN: " + isbn + ", Available: " + availability);
+    }
+
+    public boolean borrowBook() {
+        if (availability) {
+            availability = false;
+            return true;
+        }
+        return false;
+    }
+
+    public void returnBook() {
+        availability = true;
     }
 }

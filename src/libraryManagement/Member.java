@@ -1,15 +1,18 @@
 package libraryManagement;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Member {
     private String name;
     private int memberId;
-    private int borrowedBooks;
+    private List<Book> borrowedBooks;
 
 
-    public Member(String name, int memberId, int borrowedBooks) {
+    public Member(String name, int memberId) {
         this.name = name;
         this.memberId = memberId;
-        this.borrowedBooks = borrowedBooks;
+        this.borrowedBooks = new ArrayList<>();
     }
 
     public String getName() {
@@ -28,11 +31,28 @@ public class Member {
         this.memberId = memberId;
     }
 
-    public int getBorrowedBooks() {
+    public List<Book> getBorrowedBooks() {
         return borrowedBooks;
     }
 
-    public void setBorrowedBooks(int borrowedBooks) {
-        this.borrowedBooks = borrowedBooks;
+    public boolean borrowBook(Book book) {
+        if (book.borrowBook()) {
+            borrowedBooks.add(book);
+            return true;
+        }
+        return false;
+    }
+
+    public void returnBook(Book book) {
+        borrowedBooks.remove(book);
+        book.returnBook();
+    }
+
+    public void displayMemberDetails() {
+        System.out.println("Member: " + name + " (ID: " + memberId + ")");
+        System.out.println("Borrowed Books:");
+        for (Book book : borrowedBooks) {
+            System.out.println(" - " + book.getTitle());
+        }
     }
 }

@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1176b9d3-6adf-4791-b14e-35c7538b2f8e" name="Changes" comment="Contact Management File">
-      <change afterPath="$PROJECT_DIR$/src/bankingApplication/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bankingApplication/BankingApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libraryManagement/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/libraryManagement/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libraryManagement/EBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/libraryManagement/EBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libraryManagement/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/libraryManagement/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libraryManagement/LibraryManagementSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/libraryManagement/LibraryManagementSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libraryManagement/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/libraryManagement/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libraryManagement/PremiumMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/libraryManagement/PremiumMember.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +59,7 @@
     "Application.DragonCave.executor": "Run",
     "Application.GuessTheNumber.executor": "Run",
     "Application.ImplementingArrays.executor": "Run",
+    "Application.LibraryManagementSystem.executor": "Run",
     "Application.LoopsInJava.executor": "Run",
     "Application.StudentGrades.executor": "Run",
     "Application.exploringJavaConcepts.executor": "Run",
@@ -64,7 +69,7 @@
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.BankingApp">
+  <component name="RunManager" selected="Application.LibraryManagementSystem">
     <configuration name="BankingApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bankingApplication.BankingApp" />
       <module name="cognizan" />
@@ -91,16 +96,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GuessTheNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GuessTheNumber" />
+    <configuration name="ImplementingArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ImplementingArrays" />
       <module name="cognizan" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImplementingArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ImplementingArrays" />
+    <configuration name="LibraryManagementSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="libraryManagement.LibraryManagementSystem" />
       <module name="cognizan" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="libraryManagement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -114,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LibraryManagementSystem" />
         <item itemvalue="Application.BankingApp" />
         <item itemvalue="Application.ContactManager" />
         <item itemvalue="Application.StudentGrades" />
         <item itemvalue="Application.ImplementingArrays" />
-        <item itemvalue="Application.GuessTheNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +198,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745907297038</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Contact Management File">
+      <option name="closed" value="true" />
+      <created>1745987072857</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1745987072857</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

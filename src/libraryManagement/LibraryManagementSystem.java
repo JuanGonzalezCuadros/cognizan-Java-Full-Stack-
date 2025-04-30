@@ -1,45 +1,40 @@
 package libraryManagement;
 
 public class LibraryManagementSystem {
-
     public static void main(String[] args) {
         Library library = new Library();
 
+        //Add books
         System.out.println("Add a new book to the library:");
-        newBook(library, "The Lord of the Rings", "J.R.R. Tolkien", "978-0618153970", true);
-        newBook(library, "Pride and Prejudice", "Jane Austen", "978-0141439518", true);
+        Book book1 = new Book("The Lord of the Rings", "J.R.R. Tolkien", "978-0618153970");
+        Book book2 = new Book("Pride and Prejudice", "Jane Austen", "978-0141439518");
+        EBook ebook1 = new EBook("Python for Beginners", "Alex Brown", "987654", "PDF", 5.4);
 
+        library.addBook(book1);
+        library.addBook(book2);
+        library.addBook(ebook1);
+
+        //Add members
         System.out.println("Register a new member to the library:");
-        newMember(library, "Jose Alberto", 1, 0);
+        Member member1 = new Member("Jose Alberto", 1);
+        PremiumMember member2 = new PremiumMember("Bob", 2);
 
-        //library.borrowBook(user, book);
+        library.addMember(member1);
+        library.addMember(member2);
 
-        System.out.println("All books in the library:");
-        printAllBooks(library);
+        //Display books
+        library.getAllBooks();
 
-        System.out.println("All registered members in the library:");
-        registeredMembers(library);
-    }
+        //Member borrowing books
+        System.out.println("\nMember borrowing books:");
+        library.borrowBook(member1, book1);
+        library.borrowBook(member2, ebook1);
 
-    public static void newBook(Library library, String title, String author, String isbn, boolean availability){
-        Book book = new Book(title, author, isbn, availability);
-        library.addBook(book);
-    }
+        // Display updated list of available books
+        library.getAllBooks();
 
-    public static void printAllBooks(Library library){
-        for (Book book : library.getAllBooks()) {
-            System.out.println(book);
-        }
-    }
-
-    public static void newMember(Library library, String name, int memberId, int borrowedBooks){
-        Member member = new Member(name, memberId, borrowedBooks);
-        library.addMember(member);
-    }
-
-    public static void registeredMembers(Library library){
-        for (Member member : library.getAllMembers()) {
-            System.out.println(member);
-        }
+        //Display members
+        System.out.println("\n");
+        library.getAllMembers();
     }
 }

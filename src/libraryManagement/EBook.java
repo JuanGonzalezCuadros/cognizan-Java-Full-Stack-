@@ -2,10 +2,10 @@ package libraryManagement;
 
 public class EBook extends Book{
     private String fileFormat;
-    private int fileSize;
+    private double fileSize;
 
-    public EBook(String title, String author, String isbn, boolean availability, String fileFormat, int fileSize) {
-        super(title, author, isbn, availability);
+    public EBook(String title, String author, String isbn, String fileFormat, double fileSize) {
+        super(title, author, isbn);
         this.fileFormat = fileFormat;
         this.fileSize = fileSize;
     }
@@ -18,20 +18,27 @@ public class EBook extends Book{
         this.fileFormat = fileFormat;
     }
 
-    public int getFileSize() {
+    public double getFileSize() {
         return fileSize;
     }
 
-    public void setFileSize(int fileSize) {
+    public void setFileSize(double fileSize) {
         this.fileSize = fileSize;
     }
 
     @Override
-    public String toString() {
-        return "Book{" +
-                "title='" + super.getTitle() + '\'' +
-                ", author='" + super.getAuthor() + '\'' +
-                ", isbn='" + super.getISBN() + '\'' +
-                '}';
+    public void displayBookDetails() {
+        super.displayBookDetails();
+        System.out.println("File Format: " + fileFormat + ", File Size: " + fileSize + "MB");
+    }
+
+    @Override
+    public boolean borrowBook() {
+        if (super.isAvailable()) {
+            System.out.println("EBook: " + getTitle() + " has been borrowed.");
+            super.setAvailability(false);
+            return true;
+        }
+        return false;
     }
 }
