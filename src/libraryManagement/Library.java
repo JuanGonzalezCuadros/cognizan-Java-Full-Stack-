@@ -16,8 +16,8 @@ public class Library {
         this.books.add(book);
     }
 
-    public boolean borrowBook(Member member, Book book) {
-        return member.borrowBook(book);
+    public void borrowBook(Member member, Book book) {
+        member.borrowBook(book);
     }
 
     public void getAllBooks() {

@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1176b9d3-6adf-4791-b14e-35c7538b2f8e" name="Changes" comment="Contact Management File">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/libraryManagement/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/libraryManagement/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/libraryManagement/EBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/libraryManagement/EBook.java" afterDir="false" />
+    <list default="true" id="1176b9d3-6adf-4791-b14e-35c7538b2f8e" name="Changes" comment="LibraryManagement Completed">
       <change beforePath="$PROJECT_DIR$/src/libraryManagement/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/libraryManagement/Library.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/libraryManagement/LibraryManagementSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/libraryManagement/LibraryManagementSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/libraryManagement/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/libraryManagement/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/libraryManagement/PremiumMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/libraryManagement/PremiumMember.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,7 +200,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745987072857</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="LibraryManagement Completed">
+      <option name="closed" value="true" />
+      <created>1745991611907</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1745991611907</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -227,6 +229,7 @@
     <MESSAGE value="Array Changes" />
     <MESSAGE value="LibraryManagement inclompleted" />
     <MESSAGE value="Contact Management File" />
-    <option name="LAST_COMMIT_MESSAGE" value="Contact Management File" />
+    <MESSAGE value="LibraryManagement Completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="LibraryManagement Completed" />
   </component>
 </project>
