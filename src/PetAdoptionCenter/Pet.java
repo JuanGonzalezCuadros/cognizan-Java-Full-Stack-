@@ -19,7 +19,6 @@ public class Pet implements Serializable {
         this.isAdopted = false;
     }
 
-
     public int getPetId() {
         return petId;
     }

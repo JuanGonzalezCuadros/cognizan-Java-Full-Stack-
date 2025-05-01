@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1176b9d3-6adf-4791-b14e-35c7538b2f8e" name="Changes" comment="LibraryCatalog Completed">
+    <list default="true" id="1176b9d3-6adf-4791-b14e-35c7538b2f8e" name="Changes" comment="Capstone Project Completed">
+      <change afterPath="$PROJECT_DIR$/src/FantasyBattleSimulator/Archer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FantasyBattleSimulator/Assassin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FantasyBattleSimulator/BattleSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FantasyBattleSimulator/Caster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FantasyBattleSimulator/Character.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FantasyBattleSimulator/Exceptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FantasyBattleSimulator/GameManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FantasyBattleSimulator/Saber.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Humansvs/Goblins/Battle.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Humansvs/Goblins/Goblin.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Humansvs/Goblins/Grid.java" afterDir="false" />
@@ -13,15 +21,8 @@
       <change afterPath="$PROJECT_DIR$/src/Humansvs/Goblins/Item.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Humansvs/Goblins/Object.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Humansvs/Goblins/TreasureChest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PetAdoptionCenter/Adopter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PetAdoptionCenter/AdoptionApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PetAdoptionCenter/Bird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PetAdoptionCenter/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PetAdoptionCenter/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PetAdoptionCenter/Pet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PetAdoptionCenter/PetAdoptionCenter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PetAdoptionCenter/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PetAdoptionCenter/Pet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +69,7 @@
     "Application.BankingApp.executor": "Run",
     "Application.ContactManager.executor": "Run",
     "Application.DragonCave.executor": "Run",
+    "Application.GameManager.executor": "Run",
     "Application.GuessTheNumber.executor": "Run",
     "Application.ImplementingArrays.executor": "Run",
     "Application.LibraryCatalogSystem.executor": "Run",
@@ -81,7 +83,7 @@
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.AdoptionApp">
+  <component name="RunManager" selected="Application.GameManager">
     <configuration name="AdoptionApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PetAdoptionCenter.AdoptionApp" />
       <module name="cognizan" />
@@ -108,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContactManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ContactManagement.ContactManager" />
+    <configuration name="GameManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FantasyBattleSimulator.GameManager" />
       <module name="cognizan" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ContactManagement.*" />
+          <option name="PATTERN" value="FantasyBattleSimulator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GameManager" />
         <item itemvalue="Application.AdoptionApp" />
         <item itemvalue="Application.LibraryCatalogSystem" />
         <item itemvalue="Application.LibraryManagementSystem" />
         <item itemvalue="Application.BankingApp" />
-        <item itemvalue="Application.ContactManager" />
       </list>
     </recent_temporary>
   </component>
@@ -254,7 +256,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745997636408</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Capstone Project Completed">
+      <option name="closed" value="true" />
+      <created>1746069325655</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1746069325655</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -278,6 +288,7 @@
     <MESSAGE value="LibraryManagement Completed" />
     <MESSAGE value="LibraryManagement Detail" />
     <MESSAGE value="LibraryCatalog Completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="LibraryCatalog Completed" />
+    <MESSAGE value="Capstone Project Completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Capstone Project Completed" />
   </component>
 </project>
