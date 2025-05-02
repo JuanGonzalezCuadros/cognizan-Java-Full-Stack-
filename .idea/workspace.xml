@@ -4,25 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1176b9d3-6adf-4791-b14e-35c7538b2f8e" name="Changes" comment="Capstone Project Completed">
-      <change afterPath="$PROJECT_DIR$/src/FantasyBattleSimulator/Archer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FantasyBattleSimulator/Assassin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FantasyBattleSimulator/BattleSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FantasyBattleSimulator/Caster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FantasyBattleSimulator/Character.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FantasyBattleSimulator/Exceptions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FantasyBattleSimulator/GameManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FantasyBattleSimulator/Saber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Humansvs/Goblins/Battle.java" afterDir="false" />
+    <list default="true" id="1176b9d3-6adf-4791-b14e-35c7538b2f8e" name="Changes" comment="Fantasy Battle Completed">
+      <change afterPath="$PROJECT_DIR$/src/Humansvs/Goblins/Cell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Humansvs/Goblins/Character.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Humansvs/Goblins/GameWorld.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Humansvs/Goblins/Goblin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Humansvs/Goblins/Grid.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Humansvs/Goblins/Human.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Humansvs/Goblins/HumansVsGoblins.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Humansvs/Goblins/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Humansvs/Goblins/Object.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Humansvs/Goblins/TreasureChest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PetAdoptionCenter/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PetAdoptionCenter/Pet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +62,7 @@
     "Application.DragonCave.executor": "Run",
     "Application.GameManager.executor": "Run",
     "Application.GuessTheNumber.executor": "Run",
+    "Application.HumansVsGoblins.executor": "Run",
     "Application.ImplementingArrays.executor": "Run",
     "Application.LibraryCatalogSystem.executor": "Run",
     "Application.LibraryManagementSystem.executor": "Run",
@@ -83,7 +75,7 @@
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.GameManager">
+  <component name="RunManager" selected="Application.HumansVsGoblins">
     <configuration name="AdoptionApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PetAdoptionCenter.AdoptionApp" />
       <module name="cognizan" />
@@ -97,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BankingApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bankingApplication.BankingApp" />
+    <configuration name="GameManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FantasyBattleSimulator.GameManager" />
       <module name="cognizan" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bankingApplication.*" />
+          <option name="PATTERN" value="FantasyBattleSimulator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GameManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FantasyBattleSimulator.GameManager" />
+    <configuration name="HumansVsGoblins" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Humansvs.Goblins.HumansVsGoblins" />
       <module name="cognizan" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FantasyBattleSimulator.*" />
+          <option name="PATTERN" value="Humansvs.Goblins.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HumansVsGoblins" />
         <item itemvalue="Application.GameManager" />
         <item itemvalue="Application.AdoptionApp" />
         <item itemvalue="Application.LibraryCatalogSystem" />
         <item itemvalue="Application.LibraryManagementSystem" />
-        <item itemvalue="Application.BankingApp" />
       </list>
     </recent_temporary>
   </component>
@@ -264,7 +256,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746069325655</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Fantasy Battle Completed">
+      <option name="closed" value="true" />
+      <created>1746082084494</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1746082084494</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -289,6 +289,7 @@
     <MESSAGE value="LibraryManagement Detail" />
     <MESSAGE value="LibraryCatalog Completed" />
     <MESSAGE value="Capstone Project Completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Capstone Project Completed" />
+    <MESSAGE value="Fantasy Battle Completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fantasy Battle Completed" />
   </component>
 </project>
