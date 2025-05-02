@@ -1,7 +1,4 @@
-package Humansvs.Goblins;
-
-import java.util.ArrayList;
-import java.util.List;
+package HumansVsGoblins;
 
 public class TreasureChest extends Object{
     private int x, y;

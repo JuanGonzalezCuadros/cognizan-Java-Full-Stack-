@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1176b9d3-6adf-4791-b14e-35c7538b2f8e" name="Changes" comment="Fantasy Battle Completed">
+    <list default="true" id="1176b9d3-6adf-4791-b14e-35c7538b2f8e" name="Changes" comment="Human vs Goblin Completed">
       <change afterPath="$PROJECT_DIR$/src/Humansvs/Goblins/Cell.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Humansvs/Goblins/Character.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Humansvs/Goblins/GameWorld.java" afterDir="false" />
@@ -264,7 +264,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746082084494</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Human vs Goblin Completed">
+      <option name="closed" value="true" />
+      <created>1746166909576</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1746166909576</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -290,6 +298,7 @@
     <MESSAGE value="LibraryCatalog Completed" />
     <MESSAGE value="Capstone Project Completed" />
     <MESSAGE value="Fantasy Battle Completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fantasy Battle Completed" />
+    <MESSAGE value="Human vs Goblin Completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Human vs Goblin Completed" />
   </component>
 </project>

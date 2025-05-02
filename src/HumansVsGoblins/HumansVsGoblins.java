@@ -1,6 +1,5 @@
-package Humansvs.Goblins;
+package HumansVsGoblins;
 
-import java.util.Random;
 import java.util.Scanner;
 
 public class HumansVsGoblins {

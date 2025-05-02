@@ -1,4 +1,4 @@
-package Humansvs.Goblins;
+package HumansVsGoblins;
 
 public class GameWorld {
     private Cell[][] grid;

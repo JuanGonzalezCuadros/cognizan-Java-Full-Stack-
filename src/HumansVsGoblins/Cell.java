@@ -1,4 +1,4 @@
-package Humansvs.Goblins;
+package HumansVsGoblins;
 
 public class Cell {
     private Object occupant;

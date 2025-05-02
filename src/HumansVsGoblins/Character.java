@@ -1,4 +1,4 @@
-package Humansvs.Goblins;
+package HumansVsGoblins;
 
 public abstract class Character {
     protected int health;

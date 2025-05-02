@@ -1,4 +1,4 @@
-package Humansvs.Goblins;
+package HumansVsGoblins;
 
 import java.util.ArrayList;
 import java.util.List;
